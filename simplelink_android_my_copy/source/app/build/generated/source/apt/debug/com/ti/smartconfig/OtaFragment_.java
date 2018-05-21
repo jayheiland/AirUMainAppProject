@@ -81,18 +81,18 @@ public final class OtaFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        update_version_button = ((Button) hasViews.findViewById(com.ti.smartconfig.R.id.update_version_button));
-        current_sw_version_textview_update = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.current_sw_version_textview_update));
         upload_status_box = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.upload_status_box));
-        newest_software_version_title_textview_update = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.newest_software_version_title_textview_update));
-        tab_ota_progressbar_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_ota_progressbar_textview));
+        current_sw_version_textview_update = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.current_sw_version_textview_update));
+        software_status_button = ((Button) hasViews.findViewById(com.ti.smartconfig.R.id.software_status_button));
         update_software_append_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.update_software_append_textview));
-        tab_ota_configuration_laoder_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_ota_configuration_laoder_layout));
         tab_ota_configuration_laoder_label = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_ota_configuration_laoder_label));
+        check_version_button = ((ImageButton) hasViews.findViewById(com.ti.smartconfig.R.id.check_version_button));
+        newest_software_version_title_textview_update = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.newest_software_version_title_textview_update));
+        update_version_button = ((Button) hasViews.findViewById(com.ti.smartconfig.R.id.update_version_button));
+        tab_ota_progressbar_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.tab_ota_progressbar_textview));
         software_update_progressBar = ((ProgressBar) hasViews.findViewById(com.ti.smartconfig.R.id.software_update_progressBar));
         scroller = ((ScrollView) hasViews.findViewById(com.ti.smartconfig.R.id.scroller));
-        software_status_button = ((Button) hasViews.findViewById(com.ti.smartconfig.R.id.software_status_button));
-        check_version_button = ((ImageButton) hasViews.findViewById(com.ti.smartconfig.R.id.check_version_button));
+        tab_ota_configuration_laoder_layout = ((RelativeLayout) hasViews.findViewById(com.ti.smartconfig.R.id.tab_ota_configuration_laoder_layout));
         afterViews();
     }
 

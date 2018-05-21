@@ -99,7 +99,7 @@
     <string name="ap_mode_page6_title">Step 5</string>
     <string name="ap_provisioning_spinner_headline">Search for your device</string>
     <string name="ap_provisioning_wifi_name_text">Wifi Name</string>
-    <string name="app_name">SimpleLink Starter Pro</string>
+    <string name="app_name">AirU Setup</string>
     <string name="attention">Attention</string>
     <string name="attention_security_alert_message">Must supply security key for this network.</string>
     <string name="attention_ssid_alert_message">Must supply SSID value.</string>

@@ -4,6 +4,10 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/ti_logo.png"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-ldpi/download_tar_file_image.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/download_tar_file_image.png"
+    },
+    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_launcher.png",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-ldpi/ic_launcher.png"
     },
@@ -28,6 +32,10 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-ldpi/ti_log.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/ti_log.png"
+    },
+    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-ldpi/check_update_folder.png",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-ldpi/check_update_folder.png"
     },
@@ -44,7 +52,23 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/check_update_folder_pressed.png"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-ldpi/check_update_folder_pressed.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/check_update_folder_pressed.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-ldpi/ti_logo.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/ti_logo.png"
+    },
+    {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-ldpi/check_update_folder.png",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/check_update_folder.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-ldpi/check_update_folder.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/check_update_folder.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_launcher.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/ic_launcher.png"
     }
 ]

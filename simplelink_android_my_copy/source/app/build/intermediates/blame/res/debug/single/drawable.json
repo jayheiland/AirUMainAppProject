@@ -12,8 +12,24 @@
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable/check_update_folder_selector.xml"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/opengl_tab_gray_led.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/opengl_tab_gray_led.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/lan_selector.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/lan_selector.xml"
+    },
+    {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/lan_selector.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable/lan_selector.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/popup_shape.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/popup_shape.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/rounded_corners_disabled.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/rounded_corners_disabled.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable/popup_shape.xml",
@@ -44,12 +60,20 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable/opengl_tab_red_led.png"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/ic_launcher_future.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/ic_launcher_future.png"
+    },
+    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable/start_configuration_button_on.png",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable/start_configuration_button_on.png"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/opengl_tab_gray_led.png",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable/opengl_tab_gray_led.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/help_show_selector.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/help_show_selector.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/upload_button_pressed.xml",
@@ -80,12 +104,24 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable/ota_selector.xml"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/start_configuration_button_on.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/start_configuration_button_on.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/vpi__tab_indicator.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable/vpi__tab_indicator.xml"
+    },
+    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable/edittext_border.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable/edittext_border.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/open_gl_tab_blue_led.png",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable/open_gl_tab_blue_led.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/rounded_corners.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/rounded_corners.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable/progress_bar_shape.xml",
@@ -100,6 +136,10 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable/settings_toggle_button_selector.xml"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/open_gl_tab_blue_led.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/open_gl_tab_blue_led.png"
+    },
+    {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/check_update_folder_selector.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable/check_update_folder_selector.xml"
     },
@@ -110,6 +150,14 @@
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/red_borders.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable/red_borders.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/settings_toggle_button_selector.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/settings_toggle_button_selector.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/upload_button.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/upload_button.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/start_configuration_button_off.png",
@@ -124,16 +172,40 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable/rounded_corners.xml"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/opengl_tab_red_led.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/opengl_tab_red_led.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/upload_button_selector.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/upload_button_selector.xml"
+    },
+    {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/upload_button_selector.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable/upload_button_selector.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/opengl_tab_green_led.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/opengl_tab_green_led.png"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/layout_rounded_corners.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable/layout_rounded_corners.xml"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/edittext_border.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/edittext_border.xml"
+    },
+    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable/upload_button_pressed.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable/upload_button_pressed.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/red_borders.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/red_borders.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/smart_config_manual_frame.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/smart_config_manual_frame.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable/opengl_tab_green_led.png",
@@ -142,6 +214,14 @@
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable/upload_button.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable/upload_button.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/layout_rounded_corners.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/layout_rounded_corners.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/shadow_roundcorners.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/shadow_roundcorners.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable/shadow_roundcorners.xml",
@@ -164,8 +244,20 @@
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable/ic_launcher_future.png"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/check_update_folder_selector.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/check_update_folder_selector.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/start_configuration_button_off.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/start_configuration_button_off.png"
+    },
+    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable/open_gl_tab_blue_led.png",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable/open_gl_tab_blue_led.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/progress_bar_shape.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/progress_bar_shape.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/rounded_corners_disabled.xml",
@@ -192,8 +284,16 @@
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable/layout_rounded_corners.xml"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/ota_selector.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/ota_selector.xml"
+    },
+    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable/red_borders.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable/red_borders.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable/upload_button_pressed.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable/upload_button_pressed.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable/lan_selector.xml",

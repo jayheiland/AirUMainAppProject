@@ -12,6 +12,14 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/color/vpi__light_theme.xml"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/color/vpi__light_theme.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/color/vpi__dark_theme.xml"
+    },
+    {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/color/vpi__dark_theme.xml"
     }

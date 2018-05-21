@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/square_border_black.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/square_border_black.xml"
+    },
+    {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/square_border_black.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-ldpi/square_border_black.xml"
     },

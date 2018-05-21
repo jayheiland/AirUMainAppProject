@@ -67,8 +67,8 @@ public final class WifiItemView_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        wifi_list_item_image = ((ImageView) hasViews.findViewById(id.wifi_list_item_image));
         wifi_list_item_name = ((TextView) hasViews.findViewById(id.wifi_list_item_name));
+        wifi_list_item_image = ((ImageView) hasViews.findViewById(id.wifi_list_item_image));
     }
 
 }

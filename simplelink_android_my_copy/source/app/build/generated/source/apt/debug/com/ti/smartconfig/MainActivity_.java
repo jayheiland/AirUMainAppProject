@@ -101,8 +101,8 @@ public final class MainActivity_
     @Override
     public void onViewChanged(HasViews hasViews) {
         tabhost = ((FragmentTabHost) hasViews.findViewById(android.R.id.tabhost));
-        real_tab_content = ((FrameLayout) hasViews.findViewById(com.ti.smartconfig.R.id.real_tab_content));
         tabs = ((TabWidget) hasViews.findViewById(android.R.id.tabs));
+        real_tab_content = ((FrameLayout) hasViews.findViewById(com.ti.smartconfig.R.id.real_tab_content));
         afterViews();
     }
 
@@ -138,13 +138,13 @@ public final class MainActivity_
     }
 
     @Override
-    public void showToastWithMessage(final String msg) {
+    public void show3GDialog() {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                MainActivity_.super.showToastWithMessage(msg);
+                MainActivity_.super.show3GDialog();
             }
 
         }
@@ -166,13 +166,13 @@ public final class MainActivity_
     }
 
     @Override
-    public void show3GDialog() {
+    public void showToastWithMessage(final String msg) {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                MainActivity_.super.show3GDialog();
+                MainActivity_.super.showToastWithMessage(msg);
             }
 
         }
@@ -208,14 +208,14 @@ public final class MainActivity_
     }
 
     @Override
-    public void stopScanning() {
+    public void scanForDevices() {
         BackgroundExecutor.execute(new BackgroundExecutor.Task("", 0, "") {
 
 
             @Override
             public void execute() {
                 try {
-                    MainActivity_.super.stopScanning();
+                    MainActivity_.super.scanForDevices();
                 } catch (Throwable e) {
                     Thread.getDefaultUncaughtExceptionHandler().uncaughtException(Thread.currentThread(), e);
                 }
@@ -226,14 +226,14 @@ public final class MainActivity_
     }
 
     @Override
-    public void scanForDevices() {
+    public void stopScanning() {
         BackgroundExecutor.execute(new BackgroundExecutor.Task("", 0, "") {
 
 
             @Override
             public void execute() {
                 try {
-                    MainActivity_.super.scanForDevices();
+                    MainActivity_.super.stopScanning();
                 } catch (Throwable e) {
                     Thread.getDefaultUncaughtExceptionHandler().uncaughtException(Thread.currentThread(), e);
                 }

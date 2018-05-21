@@ -76,13 +76,13 @@ public final class DevicePickPopUpView_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        scan_checkbox = ((CheckBox) hasViews.findViewById(id.scan_checkbox));
-        pick_pop_up_buttons_rescan_button = ((ImageView) hasViews.findViewById(id.pick_pop_up_buttons_rescan_button));
-        pick_pop_up_list = ((ListView) hasViews.findViewById(id.pick_pop_up_list));
-        pick_pop_up_buttons_ok_button = ((ImageView) hasViews.findViewById(id.pick_pop_up_buttons_ok_button));
         scan_results_pop_up_pas_editText = ((EditText) hasViews.findViewById(id.scan_results_pop_up_pas_editText));
+        pick_pop_up_buttons_ok_button = ((ImageView) hasViews.findViewById(id.pick_pop_up_buttons_ok_button));
+        pick_pop_up_list = ((ListView) hasViews.findViewById(id.pick_pop_up_list));
+        pick_pop_up_buttons_rescan_button = ((ImageView) hasViews.findViewById(id.pick_pop_up_buttons_rescan_button));
         scan_results_pop_up_password_layout = ((RelativeLayout) hasViews.findViewById(id.scan_results_pop_up_password_layout));
         pick_pop_up_loader = ((ProgressBar) hasViews.findViewById(id.pick_pop_up_loader));
+        scan_checkbox = ((CheckBox) hasViews.findViewById(id.scan_checkbox));
         if (pick_pop_up_buttons_ok_button!= null) {
             pick_pop_up_buttons_ok_button.setOnClickListener(new OnClickListener() {
 
@@ -125,13 +125,13 @@ public final class DevicePickPopUpView_
     }
 
     @Override
-    public void checkForPasswordLayout(final String ssid) {
+    public void showToastWithMessage(final String msg) {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                DevicePickPopUpView_.super.checkForPasswordLayout(ssid);
+                DevicePickPopUpView_.super.showToastWithMessage(msg);
             }
 
         }
@@ -153,13 +153,13 @@ public final class DevicePickPopUpView_
     }
 
     @Override
-    public void showToastWithMessage(final String msg) {
+    public void checkForPasswordLayout(final String ssid) {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                DevicePickPopUpView_.super.showToastWithMessage(msg);
+                DevicePickPopUpView_.super.checkForPasswordLayout(ssid);
             }
 
         }

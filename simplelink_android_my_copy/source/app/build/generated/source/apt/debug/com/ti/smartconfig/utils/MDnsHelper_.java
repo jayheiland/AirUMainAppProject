@@ -32,14 +32,14 @@ public final class MDnsHelper_
     }
 
     @Override
-    public void restartDiscovery() {
+    public void startDiscovery() {
         BackgroundExecutor.execute(new BackgroundExecutor.Task("", 0, "") {
 
 
             @Override
             public void execute() {
                 try {
-                    MDnsHelper_.super.restartDiscovery();
+                    MDnsHelper_.super.startDiscovery();
                 } catch (Throwable e) {
                     Thread.getDefaultUncaughtExceptionHandler().uncaughtException(Thread.currentThread(), e);
                 }
@@ -68,14 +68,14 @@ public final class MDnsHelper_
     }
 
     @Override
-    public void startDiscovery() {
+    public void restartDiscovery() {
         BackgroundExecutor.execute(new BackgroundExecutor.Task("", 0, "") {
 
 
             @Override
             public void execute() {
                 try {
-                    MDnsHelper_.super.startDiscovery();
+                    MDnsHelper_.super.restartDiscovery();
                 } catch (Throwable e) {
                     Thread.getDefaultUncaughtExceptionHandler().uncaughtException(Thread.currentThread(), e);
                 }

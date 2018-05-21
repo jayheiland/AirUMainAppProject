@@ -86,10 +86,10 @@ public final class DevicesFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        devices_list_listView = ((ListView) hasViews.findViewById(com.ti.smartconfig.R.id.devices_list_listView));
-        devices_refresh_spinner = ((ProgressBar) hasViews.findViewById(com.ti.smartconfig.R.id.devices_refresh_spinner));
         devices_refresh_button = ((ImageView) hasViews.findViewById(com.ti.smartconfig.R.id.devices_refresh_button));
+        devices_list_listView = ((ListView) hasViews.findViewById(com.ti.smartconfig.R.id.devices_list_listView));
         devices_recent_listView = ((ListView) hasViews.findViewById(com.ti.smartconfig.R.id.devices_recent_listView));
+        devices_refresh_spinner = ((ProgressBar) hasViews.findViewById(com.ti.smartconfig.R.id.devices_refresh_spinner));
         if (devices_refresh_button!= null) {
             devices_refresh_button.setOnClickListener(new OnClickListener() {
 
@@ -144,6 +144,20 @@ public final class DevicesFragment_
     }
 
     @Override
+    public void updateDeviceList() {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                DevicesFragment_.super.updateDeviceList();
+            }
+
+        }
+        );
+    }
+
+    @Override
     public void showRefreshProgress() {
         handler_.post(new Runnable() {
 
@@ -165,20 +179,6 @@ public final class DevicesFragment_
             @Override
             public void run() {
                 DevicesFragment_.super.updateRecentDeviceList();
-            }
-
-        }
-        );
-    }
-
-    @Override
-    public void updateDeviceList() {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                DevicesFragment_.super.updateDeviceList();
             }
 
         }

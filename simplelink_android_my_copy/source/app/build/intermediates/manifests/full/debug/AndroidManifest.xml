@@ -42,22 +42,23 @@
         <service android:name="com.ti.smartconfig.utils.TimerReceiver" />
 
         <activity
-            android:name="com.ti.smartconfig.SplashScreen_"
+            android:name="com.ti.smartconfig.MainActivity_"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+            android:windowSoftInputMode="adjustPan" >
+            //android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.ti.smartconfig.MainActivity_"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" >
-        </activity>
+        <!-- <activity -->
+        <!-- android:name=".MainActivity_" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:windowSoftInputMode="adjustPan" > -->
+        <!-- </activity> -->
         <activity
             android:name="com.ti.smartconfig.PrivacyPolicyActivity_"
             android:label="@string/title_activity_privacy_policy" >

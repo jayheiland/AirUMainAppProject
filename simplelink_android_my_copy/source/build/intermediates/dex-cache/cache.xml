@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jar="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.0"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_b4ca0386585167e92635c5f94f7bb9cd2c40685c.jar" />
+        sha1="86f452c126cb92a79e1dcf08efec5404529b698e">
+        <dex dex="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/fr.avianey.com.viewpagerindicator-library-2.4.1_ce88af75c180ea684569f42e2f0eb7bd2a898632.jar" />
     </item>
     <item
         is-multidex="false"
@@ -30,12 +30,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/jars/classes.jar"
+        jar="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/libs/android-logging-log4j-1.0.3.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.0"
-        sha1="86f452c126cb92a79e1dcf08efec5404529b698e">
-        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/fr.avianey.com.viewpagerindicator-library-2.4.1_844283730a5f1a556df54fe2caab801e49cc0abd.jar" />
+        sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
+        <dex dex="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/android-logging-log4j-1.0.3_eed66ec25321d51b3e95fd18348bb9bb75d135c6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,21 +75,75 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/libs/jsoup-1.8.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.0"
-        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
-        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/jsoup-1.8.1_f1510b057f61cbfc4070b3a8ba9fa12df342ae4a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/libs/android-logging-log4j-1.0.3.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.0"
         sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
         <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/android-logging-log4j-1.0.3_430e2f6ed7191c93ca5f871e4078bab02160f3a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_a003591c15ec8c774abae7bac45917fab544c102.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jayheiland/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.2/89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1/androidannotations-api-3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.2_43ad61b0e1cc50cc26f478ab835b3910bc91e366.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_ed8df73d70fd9b1e2e3560c63ee3516017796c5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_b4ca0386585167e92635c5f94f7bb9cd2c40685c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/libs/jsoup-1.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
+        <dex dex="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/jsoup-1.8.1_e0d9c09550d009458beb23d26c12d225fa77b97b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="86f452c126cb92a79e1dcf08efec5404529b698e">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/fr.avianey.com.viewpagerindicator-library-2.4.1_844283730a5f1a556df54fe2caab801e49cc0abd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/libs/jsoup-1.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/jsoup-1.8.1_f1510b057f61cbfc4070b3a8ba9fa12df342ae4a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -156,12 +210,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jayheiland/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.2/89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1/androidannotations-api-3.2.jar"
+        jar="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/libs/jmdns-3.4.2-r353-1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.0"
-        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
-        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.2_43ad61b0e1cc50cc26f478ab835b3910bc91e366.jar" />
+        sha1="f537032655fe983faaa05814f482129b06dd4b62">
+        <dex dex="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/jmdns-3.4.2-r353-1_2d1a730514a13c972546f28d713cd52948c75eb2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/libs/smartconfiglib2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="723b2055d4d02a999cc37d5c0b21dc58aa026557">
+        <dex dex="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/smartconfiglib2_9ed08b460ed68c00a90103a96daf0a95a9693977.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/libs/log4j-1.2.17.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
+        <dex dex="/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/log4j-1.2.17_73f6c11579d016e152d0eae14b8d71ccd537fc16.jar" />
     </item>
 
 </items>

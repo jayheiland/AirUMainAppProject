@@ -78,13 +78,13 @@ public final class CloudFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        send_to_edittext = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.send_to_edittext));
+        push_button_radio_button = ((RadioButton) hasViews.findViewById(com.ti.smartconfig.R.id.push_button_radio_button));
         freetext_edittext = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.freetext_edittext));
-        cloud_connection_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.cloud_connection_textview));
         cloud_configuration_button = ((Button) hasViews.findViewById(com.ti.smartconfig.R.id.cloud_configuration_button));
         shake_board_radio_button = ((RadioButton) hasViews.findViewById(com.ti.smartconfig.R.id.shake_board_radio_button));
-        push_button_radio_button = ((RadioButton) hasViews.findViewById(com.ti.smartconfig.R.id.push_button_radio_button));
         trigger_radio_group = ((RadioGroup) hasViews.findViewById(com.ti.smartconfig.R.id.trigger_radio_group));
+        cloud_connection_textview = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.cloud_connection_textview));
+        send_to_edittext = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.send_to_edittext));
         if (cloud_configuration_button!= null) {
             cloud_configuration_button.setOnClickListener(new OnClickListener() {
 

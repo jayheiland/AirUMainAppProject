@@ -77,25 +77,13 @@ public final class ScanResultsPopUpView_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        scan_checkbox = ((CheckBox) hasViews.findViewById(id.scan_checkbox));
-        scan_results_pop_up_buttons_rescan_button = ((ImageView) hasViews.findViewById(id.scan_results_pop_up_buttons_rescan_button));
-        scan_results_pop_up_loader = ((ProgressBar) hasViews.findViewById(id.scan_results_pop_up_loader));
         scan_results_pop_up_password_layout = ((RelativeLayout) hasViews.findViewById(id.scan_results_pop_up_password_layout));
-        scan_results_pop_up_buttons_ok_button = ((ImageView) hasViews.findViewById(id.scan_results_pop_up_buttons_ok_button));
-        scan_results_pop_up_pas_editText = ((EditText) hasViews.findViewById(id.scan_results_pop_up_pas_editText));
         scan_results_pop_up_list = ((ListView) hasViews.findViewById(id.scan_results_pop_up_list));
-        if (scan_results_pop_up_buttons_rescan_button!= null) {
-            scan_results_pop_up_buttons_rescan_button.setOnClickListener(new OnClickListener() {
-
-
-                @Override
-                public void onClick(View view) {
-                    ScanResultsPopUpView_.this.scan_results_pop_up_buttons_rescan_button();
-                }
-
-            }
-            );
-        }
+        scan_results_pop_up_pas_editText = ((EditText) hasViews.findViewById(id.scan_results_pop_up_pas_editText));
+        scan_results_pop_up_buttons_ok_button = ((ImageView) hasViews.findViewById(id.scan_results_pop_up_buttons_ok_button));
+        scan_checkbox = ((CheckBox) hasViews.findViewById(id.scan_checkbox));
+        scan_results_pop_up_loader = ((ProgressBar) hasViews.findViewById(id.scan_results_pop_up_loader));
+        scan_results_pop_up_buttons_rescan_button = ((ImageView) hasViews.findViewById(id.scan_results_pop_up_buttons_rescan_button));
         if (scan_results_pop_up_buttons_ok_button!= null) {
             scan_results_pop_up_buttons_ok_button.setOnClickListener(new OnClickListener() {
 
@@ -108,21 +96,19 @@ public final class ScanResultsPopUpView_
             }
             );
         }
-        afterViews();
-    }
-
-    @Override
-    public void showToastWithMessage(final String msg) {
-        handler_.post(new Runnable() {
+        if (scan_results_pop_up_buttons_rescan_button!= null) {
+            scan_results_pop_up_buttons_rescan_button.setOnClickListener(new OnClickListener() {
 
 
-            @Override
-            public void run() {
-                ScanResultsPopUpView_.super.showToastWithMessage(msg);
+                @Override
+                public void onClick(View view) {
+                    ScanResultsPopUpView_.this.scan_results_pop_up_buttons_rescan_button();
+                }
+
             }
-
+            );
         }
-        );
+        afterViews();
     }
 
     @Override
@@ -154,13 +140,13 @@ public final class ScanResultsPopUpView_
     }
 
     @Override
-    public void checkForPasswordLayout(final String ssid) {
+    public void showToastWithMessage(final String msg) {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
-                ScanResultsPopUpView_.super.checkForPasswordLayout(ssid);
+                ScanResultsPopUpView_.super.showToastWithMessage(msg);
             }
 
         }
@@ -175,6 +161,20 @@ public final class ScanResultsPopUpView_
             @Override
             public void run() {
                 ScanResultsPopUpView_.super.startWifiScan();
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void checkForPasswordLayout(final String ssid) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                ScanResultsPopUpView_.super.checkForPasswordLayout(ssid);
             }
 
         }

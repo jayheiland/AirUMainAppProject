@@ -4,14 +4,6 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_unselected_focused_holo.9.png"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_holo.9.png",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_selected_holo.9.png"
-    },
-    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/check_update_folder_pressed.png",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/check_update_folder_pressed.png"
     },
@@ -24,16 +16,96 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ota_red_fixed.png"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/check_update_folder.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/check_update_folder.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ti.png",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ti.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/check_update_folder_pressed.png",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/check_update_folder_pressed.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_focused_holo.9.png",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_focused_holo.9.png",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/lan_gray.png",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/lan_gray.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/check_update_folder_pressed.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/check_update_folder_pressed.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ota_red_fixed.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ota_red_fixed.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/check_update_folder.png",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/check_update_folder.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/lan_gray.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/lan_gray.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_holo.9.png",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_search.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ti_logo.png",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ti_logo.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_holo.9.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ota_red.png",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/ota_red.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ti_log.png",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/ti_log.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_pressed_holo.9.png",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ota_red.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ota_red.png"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_holo.9.png",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_pressed_holo.9.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_holo.9.png",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_unselected_holo.9.png"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/lan_gray.png",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/lan_gray.png"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ti.png",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ti.png"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/lan_red.png",
@@ -48,24 +120,28 @@
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/ota_gray_fixed.png"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/check_update_folder_pressed.png",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/check_update_folder_pressed.png"
-    },
-    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_pressed_holo.9.png",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_selected_pressed_holo.9.png"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_focused_holo.9.png",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_selected_focused_holo.9.png"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/lan_red.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/lan_red.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_focused_holo.9.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ic_launcher.png"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_holo.9.png",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_selected_holo.9.png"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_focused_holo.9.png",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_unselected_focused_holo.9.png"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ti_log.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ti_log.png"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ota_red.png",
@@ -84,12 +160,12 @@
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/ti_logo.png"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/lan_gray.png",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/lan_gray.png"
-    },
-    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/check_update_folder.png",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/check_update_folder.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_pressed_holo.9.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_selected_pressed_holo.9.png"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/download_tar_file_image.png",
@@ -100,16 +176,24 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ota_gray_fixed.png"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ti_logo.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ti_logo.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ti.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ti.png"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/download_tar_file_image.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/download_tar_file_image.png"
+    },
+    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ti.png",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/ti.png"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/check_update_folder.png",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/check_update_folder.png"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_holo.9.png",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_unselected_holo.9.png"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_focused_holo.9.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_unselected_focused_holo.9.png"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ota_gray.png",
@@ -124,28 +208,28 @@
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/ic_action_search.png"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ti_logo.png",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ti_logo.png"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_holo.9.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_selected_holo.9.png"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_search.png",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ic_action_search.png"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/ic_launcher.png"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ota_gray.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ota_gray.png"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ota_red.png",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/ota_red.png"
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/ic_launcher.png"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/download_tar_file_image.png",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/download_tar_file_image.png"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ti_log.png",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/ti_log.png"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ota_gray_fixed.png",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/drawable-mdpi/ota_gray_fixed.png"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_selected_pressed_holo.9.png",
@@ -154,9 +238,5 @@
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/drawable-mdpi/ota_gray.png",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/drawable-mdpi/ota_gray.png"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/drawable-mdpi/vpi__tab_unselected_pressed_holo.9.png",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/res/drawable-mdpi/vpi__tab_unselected_pressed_holo.9.png"
     }
 ]

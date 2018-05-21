@@ -8,11 +8,19 @@
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/anim/fragment_fade_in.xml"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/anim/fragment_fade_in.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/anim/fragment_fade_in.xml"
+    },
+    {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/anim/fragment_fade_out.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/anim/fragment_fade_out.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/anim/fragment_fade_in.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/anim/fragment_fade_in.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/anim/fragment_fade_out.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/anim/fragment_fade_out.xml"
     }
 ]

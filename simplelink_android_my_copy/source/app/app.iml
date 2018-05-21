@@ -97,14 +97,14 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 21 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Applications/TexasInstruments/simplelink_android_my_copy/source/app/libs/android-logging-log4j-1.0.3.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Applications/TexasInstruments/simplelink_android_my_copy/source/app/libs/smartconfiglib2.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/libs/smartconfiglib2.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: fr.avianey.com.viewpagerindicator:library-2.4.1" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Applications/TexasInstruments/simplelink_android_my_copy/source/app/libs/jsoup-1.8.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/libs/log4j-1.2.17.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.androidannotations:androidannotations-api:3.2@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v4-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/libs/jsoup-1.8.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/libs/jmdns-3.4.2-r353-1.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-annotations:21.0.3@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Applications/TexasInstruments/simplelink_android_my_copy/source/app/libs/jmdns-3.4.2-r353-1.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Applications/TexasInstruments/simplelink_android_my_copy/source/app/libs/log4j-1.2.17.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: __local_jars__:/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/libs/android-logging-log4j-1.0.3.jar:unspecified@jar" level="project" />
   </component>
 </module>

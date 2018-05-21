@@ -79,16 +79,16 @@ public final class SettingsFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        settings_build_text = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.settings_build_text));
-        settings_privacy_button = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.settings_privacy_button));
-        settings_terms_button = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.settings_terms_button));
-        settings_sc_transmit_timing_edit_text = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.settings_sc_transmit_timing_edit_text));
-        settings_auto_connect_toggle = ((ToggleButton) hasViews.findViewById(com.ti.smartconfig.R.id.settings_auto_connect_toggle));
         settings_iot_uuid_toggle = ((ToggleButton) hasViews.findViewById(com.ti.smartconfig.R.id.settings_iot_uuid_toggle));
         settings_show_password_toggle = ((ToggleButton) hasViews.findViewById(com.ti.smartconfig.R.id.settings_show_password_toggle));
         settings_show_name_toggle = ((ToggleButton) hasViews.findViewById(com.ti.smartconfig.R.id.settings_show_name_toggle));
-        settings_open_devices_tab_toggle = ((ToggleButton) hasViews.findViewById(com.ti.smartconfig.R.id.settings_open_devices_tab_toggle));
+        settings_auto_connect_toggle = ((ToggleButton) hasViews.findViewById(com.ti.smartconfig.R.id.settings_auto_connect_toggle));
         settings_ap_sc_toggle = ((ToggleButton) hasViews.findViewById(com.ti.smartconfig.R.id.settings_ap_sc_toggle));
+        settings_open_devices_tab_toggle = ((ToggleButton) hasViews.findViewById(com.ti.smartconfig.R.id.settings_open_devices_tab_toggle));
+        settings_terms_button = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.settings_terms_button));
+        settings_sc_transmit_timing_edit_text = ((EditText) hasViews.findViewById(com.ti.smartconfig.R.id.settings_sc_transmit_timing_edit_text));
+        settings_privacy_button = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.settings_privacy_button));
+        settings_build_text = ((TextView) hasViews.findViewById(com.ti.smartconfig.R.id.settings_build_text));
         {
             View view = hasViews.findViewById(com.ti.smartconfig.R.id.settings_iot_uuid_layout_help);
             if (view!= null) {
@@ -98,21 +98,6 @@ public final class SettingsFragment_
                     @Override
                     public void onClick(View view) {
                         SettingsFragment_.this.settings_iot_uuid_layout_help();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = hasViews.findViewById(com.ti.smartconfig.R.id.settings_logs_button);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        SettingsFragment_.this.settings_logs_button();
                     }
 
                 }
@@ -147,14 +132,14 @@ public final class SettingsFragment_
             );
         }
         {
-            View view = hasViews.findViewById(com.ti.smartconfig.R.id.settings_auto_connect_help);
+            View view = hasViews.findViewById(com.ti.smartconfig.R.id.settings_ap_sc_layout_help);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        SettingsFragment_.this.settings_auto_connect_help();
+                        SettingsFragment_.this.settings_ap_sc_layout_help();
                     }
 
                 }
@@ -174,14 +159,14 @@ public final class SettingsFragment_
             );
         }
         {
-            View view = hasViews.findViewById(com.ti.smartconfig.R.id.settings_ap_sc_layout_help);
+            View view = hasViews.findViewById(com.ti.smartconfig.R.id.settings_help_button);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        SettingsFragment_.this.settings_ap_sc_layout_help();
+                        SettingsFragment_.this.settings_help_button();
                     }
 
                 }
@@ -189,14 +174,14 @@ public final class SettingsFragment_
             }
         }
         {
-            View view = hasViews.findViewById(com.ti.smartconfig.R.id.settings_show_password_layout_help);
+            View view = hasViews.findViewById(com.ti.smartconfig.R.id.settings_logs_button);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        SettingsFragment_.this.settings_show_password_layout_help();
+                        SettingsFragment_.this.settings_logs_button();
                     }
 
                 }
@@ -219,14 +204,29 @@ public final class SettingsFragment_
             }
         }
         {
-            View view = hasViews.findViewById(com.ti.smartconfig.R.id.settings_help_button);
+            View view = hasViews.findViewById(com.ti.smartconfig.R.id.settings_auto_connect_help);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        SettingsFragment_.this.settings_help_button();
+                        SettingsFragment_.this.settings_auto_connect_help();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = hasViews.findViewById(com.ti.smartconfig.R.id.settings_show_password_layout_help);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        SettingsFragment_.this.settings_show_password_layout_help();
                     }
 
                 }

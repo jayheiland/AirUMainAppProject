@@ -1,15 +1,191 @@
 [
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_ap_provision_view.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/tab_ap_provision_view.xml"
-    },
-    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/help_page3.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/help_page3.xml"
     },
     {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_lan_view.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/tab_lan_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/activity_ap_mode_view.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/activity_ap_mode_view.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/spinner_row.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/spinner_row.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/tab_ap_provision_view.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/tab_ap_provision_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/tab_device_configuration.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/tab_device_configuration.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_lan_view.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/tab_lan_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/activity_terms_of_use.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/activity_terms_of_use.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/cloud_view.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/cloud_view.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_terms_of_use.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/activity_terms_of_use.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_ap_mode_view.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/activity_ap_mode_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/tab_devices_view.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/tab_devices_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/test.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/test.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_device_configuration.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/tab_device_configuration.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/scan_result_list_item.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/scan_result_list_item.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/tab_lan_view.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/tab_lan_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_privacy_policy.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/activity_privacy_policy.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/developer_mode_window.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/developer_mode_window.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/help_fragment.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/help_fragment.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/help_fragment.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/help_fragment.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/help_fragment.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/help_fragment.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/developer_mode_window.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/developer_mode_window.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/scan_results_pop_up_view.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/scan_results_pop_up_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/device_pick_pop_up_view.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/device_pick_pop_up_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/list_devices_item.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/list_devices_item.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_lan_view_without_3d_image.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/tab_lan_view_without_3d_image.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/scan_results_pop_up_view.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/scan_results_pop_up_view.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/ota_success_window.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/ota_success_window.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/cloud_view.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/cloud_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/same_version_window.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/same_version_window.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/list_new_device_item.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/list_new_device_item.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/scan_result_list_item.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/scan_result_list_item.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/wifi_item.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/wifi_item.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_settings_view.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/tab_settings_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/help_page2.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/help_page2.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/ota_success_window.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/ota_success_window.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/automation_data_dialog_layout.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/automation_data_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_ap_provision_view.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/tab_ap_provision_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_splash_screen.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_devices_view.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/tab_devices_view.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_devices_view.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/tab_devices_view.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_privacy_policy.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/activity_privacy_policy.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_new_smart_config.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/tab_new_smart_config.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/activity_ota_view.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/activity_ota_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_ap_provision_view.xml",
+        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/tab_ap_provision_view.xml"
+    },
+    {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/wifi_item.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/wifi_item.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/help_page2.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/help_page2.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_lan_view_without_3d_image.xml",
@@ -32,20 +208,12 @@
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/tab_lan_view_without_3d_image.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_lan_view.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/tab_lan_view.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/activity_ap_mode_view.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/activity_ap_mode_view.xml"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/help_page3.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/help_page3.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/activity_privacy_policy.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/activity_privacy_policy.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/tab_ap_provision_view.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/tab_ap_provision_view.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/help_page2.xml",
@@ -56,8 +224,8 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/activity_terms_of_use.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/tab_device_configuration.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/tab_device_configuration.xml"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_lan_new_graphics.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/tab_lan_new_graphics.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/automation_data_dialog_layout.xml",
@@ -72,16 +240,8 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/spinner_row.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/activity_terms_of_use.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/activity_terms_of_use.xml"
-    },
-    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/activity_splash_screen.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/activity_splash_screen.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/cloud_view.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/cloud_view.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_ap_mode_view.xml",
@@ -92,16 +252,12 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/activity_ota_view.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/tab_devices_view.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/tab_devices_view.xml"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/list_devices_item.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/list_devices_item.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/cloud_view.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/cloud_view.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/test.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/test.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/popup_layout.xml",
@@ -112,84 +268,88 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/device_pick_pop_up_view.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/scan_result_list_item.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/scan_result_list_item.xml"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/scan_result_list_item.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/scan_result_list_item.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/tab_lan_view.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/tab_lan_view.xml"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/test.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/test.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/help_page1.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/help_page1.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/same_version_window.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/same_version_window.xml"
     },
     {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/automation_data_dialog_layout.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/automation_data_dialog_layout.xml"
+    },
+    {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_new_smart_config.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/tab_new_smart_config.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_splash_screen.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/activity_splash_screen.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/scan_results_pop_up_view.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/scan_results_pop_up_view.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_privacy_policy.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/activity_privacy_policy.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/developer_mode_window.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/developer_mode_window.xml"
-    },
-    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/help_fragment.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/help_fragment.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/help_fragment.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/help_fragment.xml"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/developer_mode_window.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/developer_mode_window.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/tab_lan_new_graphics.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/tab_lan_new_graphics.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/list_devices_item.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/list_devices_item.xml"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_ota_view.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/activity_ota_view.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/developer_mode_window.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/developer_mode_window.xml"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/device_pick_pop_up_view.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/device_pick_pop_up_view.xml"
+    },
+    {
+        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/list_devices_item.xml",
+        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/list_devices_item.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/help_page1.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/help_page1.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/scan_results_pop_up_view.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/scan_results_pop_up_view.xml"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/spinner_row.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/spinner_row.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/device_pick_pop_up_view.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/device_pick_pop_up_view.xml"
-    },
-    {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/list_devices_item.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/list_devices_item.xml"
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/popup_layout.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/popup_layout.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/list_new_device_item.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/list_new_device_item.xml"
+    },
+    {
+        "merged": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/same_version_window.xml",
+        "source": "/Users/jayheiland/Documents/GitHub/AirUMainAppProject/simplelink_android_my_copy/source/app/src/main/res/layout/same_version_window.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/help_page1.xml",
@@ -200,28 +360,8 @@
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/wifi_item.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/same_version_window.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/same_version_window.xml"
-    },
-    {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/popup_layout.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/popup_layout.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/scan_result_list_item.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/scan_result_list_item.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/help_page2.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/help_page2.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/ota_success_window.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/ota_success_window.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/automation_data_dialog_layout.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/automation_data_dialog_layout.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/test.xml",
@@ -232,24 +372,12 @@
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/tab_lan_new_graphics.xml"
     },
     {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/activity_splash_screen.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/activity_splash_screen.xml"
-    },
-    {
         "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/ota_success_window.xml",
         "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/ota_success_window.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/list_new_device_item.xml",
         "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/list_new_device_item.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_devices_view.xml",
-        "source": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/src/main/res/layout/tab_devices_view.xml"
-    },
-    {
-        "merged": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/res/merged/debug/layout/activity_ota_view.xml",
-        "source": "/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/src/main/res/layout/activity_ota_view.xml"
     },
     {
         "merged": "/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/res/merged/debug/layout/tab_device_configuration.xml",
