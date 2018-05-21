@@ -1,0 +1,4 @@
+#Sun May 20 17:44:02 MDT 2018
+base.0=/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

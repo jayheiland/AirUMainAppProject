@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_b4ca0386585167e92635c5f94f7bb9cd2c40685c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jayheiland/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_103c946fff96f5fe0b6a24a5653aa491c279e230.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/libs/jmdns-3.4.2-r353-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="f537032655fe983faaa05814f482129b06dd4b62">
+        <dex dex="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/jmdns-3.4.2-r353-1_83882cd0dd082144104903524210a26868599b25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="86f452c126cb92a79e1dcf08efec5404529b698e">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/fr.avianey.com.viewpagerindicator-library-2.4.1_844283730a5f1a556df54fe2caab801e49cc0abd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_cb9925e94b4e1ab0608ffe875f6655cc2ebef2f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/libs/log4j-1.2.17.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/log4j-1.2.17_9c75707b23cfa7745a03d484263bbd0bcb30c0e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_65d2b3a16b326cf30b22124e3798758ce75ab7f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/libs/jsoup-1.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
+        <dex dex="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/jsoup-1.8.1_0479c3372107e455b6abd07035f3262fdb1e4c9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/libs/jsoup-1.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/jsoup-1.8.1_f1510b057f61cbfc4070b3a8ba9fa12df342ae4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/libs/android-logging-log4j-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/android-logging-log4j-1.0.3_430e2f6ed7191c93ca5f871e4078bab02160f3a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/libs/android-logging-log4j-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
+        <dex dex="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/android-logging-log4j-1.0.3_f4704230ab6b2691e84ace76f66bc8393a64d6d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_65cc704a7aa31686feba073f20eedc5db8e57736.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="86f452c126cb92a79e1dcf08efec5404529b698e">
+        <dex dex="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/fr.avianey.com.viewpagerindicator-library-2.4.1_a5ebf8c281f41c44c3e809ee7dbd0a1c939323dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/libs/log4j-1.2.17.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
+        <dex dex="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/log4j-1.2.17_bf76f81cc1b09b8d573fb6894138ce99cdd23c82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/libs/jmdns-3.4.2-r353-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="f537032655fe983faaa05814f482129b06dd4b62">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/jmdns-3.4.2-r353-1_c86b4123113fb51441e05e22395f5aba035a4c37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/libs/smartconfiglib2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="723b2055d4d02a999cc37d5c0b21dc58aa026557">
+        <dex dex="/Applications/TexasInstruments/simplelink_android_my_copy/source/app/build/intermediates/pre-dexed/debug/smartconfiglib2_3be89d507cbf170159fd4ac5e58a8e9dc4c8270c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/libs/smartconfiglib2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="723b2055d4d02a999cc37d5c0b21dc58aa026557">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/smartconfiglib2_309332dc490a594df0b780a6683fe76ca241ecae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jayheiland/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.2/89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1/androidannotations-api-3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
+        <dex dex="/Applications/TexasInstruments/SimpleLink_WiFi_Provisioning_Android_Source_2.2.22/source/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.2_43ad61b0e1cc50cc26f478ab835b3910bc91e366.jar" />
+    </item>
+
+</items>

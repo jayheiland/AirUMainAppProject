@@ -1,0 +1,472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>airU</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
+  <script type="text/javascript" src="js/com.TI.tokenPoller.js"></script>
+  <!-- <script src="js/page-actions.js"></script> -->
+  <script type="text/javascript">
+      $(function() {
+          // assume that webserver will replace all the __SL_G token values with their
+          // appropriate values if they exist
+          var tokens = {
+              "__SL_P_S.R": "__SL_G_S.R",
+              "__SL_P_N.D": "__SL_G_N.D",
+              "__SL_P_N.A": "__SL_G_N.A",
+              "__SL_P_N.B": "__SL_G_N.B",
+              "__SL_P_N.C": "__SL_G_N.C",
+              "__SL_P_N.H": "__SL_G_N.H",
+              "__SL_P_PRR": "__SL_G_PRR",
+              "__SL_P_S.B": "__SL_G_S.B",
+              "__SL_P_S.C": "__SL_G_S.C",
+              "__SL_P_S.D": "__SL_G_S.D",
+              "__SL_P_P.E": "__SL_G_P.E",
+              "__SL_P_P.F": "__SL_G_P.F",
+              "__SL_P_P.G": "__SL_G_P.G",
+              "__SL_P_P.P": "__SL_G_P.P",
+              "__SL_P_W.A": "__SL_G_W.A",
+              "__SL_P_W.B": "__SL_G_W.B",
+              "__SL_P_W.C": "__SL_G_W.C",
+              "__SL_P_R.E": "__SL_G_R.E",
+              "__SL_P_R.L": "__SL_G_R.L",
+              "__SL_P_N.P": "__SL_G_N.P",
+              "__SL_P_N.I": "__SL_G_N.I",
+              "__SL_P_N.J": "__SL_G_N.J",
+              "__SL_P_N.K": "__SL_G_N.K"
+          };
+
+          // go through each input field in this page and set their values
+          $('input').each(function(i) {
+              var $this = $(this),
+                  thisName = $this.attr('name');
+              switch ($this.attr('type')) {
+                  case "text":
+                      // set the value
+                      $this.val(tokens[thisName]);
+                      break;
+                  case "radio":
+                      if ($this.attr('value') == tokens[thisName]) {
+                          $this.attr('checked', 'checked');
+                      }
+                      break;
+                  case "checkbox":
+                      if ('Set' == tokens[thisName]) {
+                          $this.attr('checked', 'checked');
+                      }
+                      break;
+                  default:
+                      break;
+              }
+          });
+          // go through all the selects and select the appropriate options
+          $('select').each(function(i) {
+              var $this = $(this),
+                  selName = $this.attr('name');
+              $this.find('option').each(function(o) {
+                  var $opt = $(this);
+                  if ($opt.val() == tokens[selName]) {
+                      $opt.attr('selected', 'selected');
+                      return false;
+                  }
+              });
+          });
+
+
+          // handling security and local storage
+          var currentLocalStorageElement = localStorage.getItem("security");
+          if (currentLocalStorageElement != null) {
+            document.getElementById(currentLocalStorageElement).checked = true;
+          }
+
+          $("input[type=radio]").change(function(){
+            var newSecurity = $(this).val();
+
+            localStorage.setItem('security', newSecurity);
+          });
+
+
+          // populate the profiles table
+          // go get the tokens for the profiles
+          $.ajax({
+                  "type": "GET",
+                  "url": "param_config.html",
+                  "cache": false,
+                  "dataType": "html"
+              })
+              // define callback for get request success
+              .done(function(getdata, status, xhr) {
+                  var datapage = $(getdata),
+                      defaultSecurity = "WAP2",
+                      emptyStatus = "   -   ",
+                      numProfiles = 7,
+                      i = 0,
+                      profNum = 0,
+                      profSSID = '',
+                      profSecurity = '',
+                      profPriority = '',
+                      output = [];
+
+                  for (i = 0; i < numProfiles; i++) {
+                      profNum = i + 1;
+                      profSSID = datapage.filter('#Profile_' + profNum + '_SSID').text();
+
+                      profSecurity = datapage.filter('#Profile_' + profNum + '_Security_Status').text();
+                      if (profSecurity == emptyStatus) profSecurity = defaultSecurity;
+
+                      profPriority = datapage.filter('#Profile_' + profNum + '_Priority').text();
+
+                      if (profSSID != emptyStatus) {
+                          output = [];
+                          output.push('<div class="profileItem"><input type="checkbox" name="__SL_P_PRR" value="' + profNum + '"> ' + profNum + '. <b>' + profSSID + '</b></div>');
+                          output.push('<div class="profileItem">Security: <b>' + profSecurity + '</b></div>');
+                          output.push('<div class="profileItem">Priority: <b>' + profPriority + '</b></div>');
+                          $(output.join('')).insertBefore('#profile_holding_area');
+                      }
+                  }
+              })
+              .fail(function(jqxhr, settings, exception) {
+                  // do nothing
+              });
+
+          // setup binding for all form submits
+          // handle form submit of 'form_id'
+          $('form').on('submit', function(event) {
+              event.preventDefault();
+              // attach a message for the user
+              var $form = $(this),
+                  submitBtn = $form.find(':submit'),
+                  statusMessage = submitBtn.parent().find('.status'),
+                  bClearForm = (submitBtn.val().indexOf('Add') > -1);
+              if (statusMessage.length == 0) {
+                  statusMessage = $('<p class="status">Applying changes...</p>');
+                  submitBtn.parent().append(statusMessage);
+              } else {
+                  statusMessage.show();
+              }
+              // do the post to 'action' defined by form html
+              // serialize the form data for submission
+              $.post($form.attr('action'), $form.serialize())
+                  // define callback function for when the submission completes
+                  .done(function(data, textStatus, jqXHR) {
+                      // textStatus returns 'success' if http status 200 or similar
+                      if (textStatus == 'success') {
+                          statusMessage.html('Changes applied.').delay(3000).fadeOut(400);
+                          if (bClearForm) {
+                              $form.each(function() {
+                                  this.reset();
+                              });
+                          }
+                          location.reload();
+                      } else {
+                          statusMessage.html('Failed to apply changes.').delay(3000).fadeOut(400);
+                      }
+                  })
+                  // define callback function for if the form fails
+                  .fail(function(jqxhr, settings, exception) {
+                      statusMessage.html('Failed to apply changes.').delay(3000).fadeOut(400);
+                  });
+          });
+      });
+
+    $(function() {
+        var System_Up_Time = $('#System_Up_Time'),
+            NWP_Version = $('#NWP_Version'),
+            MAC_Version = $('#MAC_Version'),
+            PHY_Version = $('#PHY_Version'),
+            HW_Version = $('#HW_Version'),
+            STA_IP_Address = $('#STA_IP_Address'),
+            STA_Subnet_Mask = $('#STA_Subnet_Mask'),
+            STA_Default_Gateway = $('#STA_Default_Gateway'),
+            MAC_Address = $('#MAC_Address'),
+            STA_DHCP_State = $('#STA_DHCP_State'),
+            STA_DHCP_Disable_State = $('#STA_DHCP_Disable_State'),
+            STA_DHCP_Enable_State = $('#STA_DHCP_Enable_State'),
+            STA_Connected_to_channel = $('#STA_Connected_to_channel'),
+            aboutPolling = new com.TI.tokenPoller({
+                "paramPage": "param_about.html",
+                "refreshRate": 1 * 1000, // every second
+                "valueMap": [{
+                    "paramId": "System_Up_Time",
+                    "outputSuccess": function(output) {
+                        System_Up_Time.html(output);
+                    },
+                    "outputDefault": function() {
+                        System_Up_Time.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "NWP_Version",
+                    "outputSuccess": function(output) {
+                        NWP_Version.html(output);
+                    },
+                    "outputDefault": function() {
+                        NWP_Version.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "MAC_Version",
+                    "outputSuccess": function(output) {
+                        MAC_Version.html(output);
+                    },
+                    "outputDefault": function() {
+                        MAC_Version.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "PHY_Version",
+                    "outputSuccess": function(output) {
+                        PHY_Version.html(output);
+                    },
+                    "outputDefault": function() {
+                        PHY_Version.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "HW_Version",
+                    "outputSuccess": function(output) {
+                        HW_Version.html(output);
+                    },
+                    "outputDefault": function() {
+                        HW_Version.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "STA_IP_Address",
+                    "outputSuccess": function(output) {
+                        STA_IP_Address.html(output);
+                    },
+                    "outputDefault": function() {
+                        STA_IP_Address.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "STA_Subnet_Mask",
+                    "outputSuccess": function(output) {
+                        STA_Subnet_Mask.html(output);
+                    },
+                    "outputDefault": function() {
+                        STA_Subnet_Mask.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "STA_Default_Gateway",
+                    "outputSuccess": function(output) {
+                        STA_Default_Gateway.html(output);
+                    },
+                    "outputDefault": function() {
+                        STA_Default_Gateway.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "MAC_Address",
+                    "outputSuccess": function(output) {
+                        MAC_Address.html(output);
+                    },
+                    "outputDefault": function() {
+                        MAC_Address.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "STA_DHCP_State",
+                    "outputSuccess": function(output) {
+                        STA_DHCP_State.html(output);
+                    },
+                    "outputDefault": function() {
+                        STA_DHCP_State.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "STA_DHCP_Disable_State",
+                    "outputSuccess": function(output) {
+                        STA_DHCP_Disable_State.html(output);
+                    },
+                    "outputDefault": function() {
+                        STA_DHCP_Disable_State.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "STA_DHCP_Enable_State",
+                    "outputSuccess": function(output) {
+                        STA_DHCP_Enable_State.html(output);
+                    },
+                    "outputDefault": function() {
+                        STA_DHCP_Enable_State.html("<i>reloading</i>");
+                    }
+                }, {
+                    "paramId": "STA_Connected_to_channel",
+                    "outputSuccess": function(output) {
+                        STA_Connected_to_channel.html(output);
+                    },
+                    "outputDefault": function() {
+                        STA_Connected_to_channel.html("<i>reloading</i>");
+                    }
+                }]
+            });
+    });
+</script>
+
+<title>Advanced Settings</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-connect">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-lg-12">
+                <div id="setup-form">
+
+                  <div class="form-group">
+                    <h4>Security Type</h4>
+                      <input type="radio" id="0" name="__SL_P_P.B" value="0" />&nbsp;Open <br />
+                      <input type="radio" id="1" name="__SL_P_P.B" value="1" />&nbsp;WEP <br />
+                      <input type="radio" id="2" name="__SL_P_P.B" value="2" />&nbsp;WPA1 <br />
+                      <input type="radio" id="3" name="__SL_P_P.B" value="3" checked="" />&nbsp;WPA2
+                  </div>
+
+                  <br />
+                  <br />
+
+                  <div class="form-group">
+                    <h4>Profiles</h4>
+                    <form action="remove_selected_profiles" method="post" role="form" style="display: block;" name="SimpleLink Configuration">
+                      <input type="hidden" name="__SL_P_S.R" value="advanced.html" />
+
+                      <table>
+                          <!-- profiles go here -->
+                        <tr id="profile_holding_area">
+                            <td colspan="3"></td>
+                        </tr>
+                        <div class="col-sm-6 col-sm-offset-3">
+                          <input type="submit" name="connect-submit" id="connect-submit" tabindex="4" class="form-control btn btn-form" value="Remove Selected Profiles" />
+                        </div>
+                      </table>
+                    </form>
+
+                    <br />
+
+                    <form action="remove_all_profiles" method="post" role="form" style="display: block;" name="SimpleLink Configuration">
+                      <input type="hidden" name="__SL_P_S.R" value="advanced.html" />
+                      <div class="col-sm-6 col-sm-offset-3">
+                        <input type="submit" name="connect-submit" id="connect-submit" tabindex="4" class="form-control btn btn-form" value="Remove All Profiles" />
+                      </div>
+                    </form>
+                  </div>
+
+                  <br />
+                </div>
+
+
+                <form id="overview-form" action="#" method="post" role="form" style="display: none;">
+                  <h2>OVERVIEW</h2>
+                  <div class="form-group">
+                    <h4>Versions</h4>
+                    <table>
+                      <tr>
+                        <td>NWP Version:</td>
+                        <td id="NWP_Version"><i>reloading</i></td>
+                      </tr>
+                      <tr>
+                        <td>MAC Version:</td>
+                        <td id="MAC_Version"><i>reloading</i></td>
+                      </tr>
+                      <tr>
+                        <td>PHY Version:</td>
+                        <td id="PHY_Version"><i>reloading</i></td>
+                      </tr>
+                      <tr>
+                        <td>HW Version:</td>
+                        <td id="HW_Version"><i>reloading</i></td>
+                      </tr>
+                    </table>
+                  </div>
+
+                  <br />
+
+                  <div class="form-group">
+                    <h4>LAN</h4>
+                    <table>
+                      <tr>
+                        <td>MAC Address:</td>
+                        <td id="MAC_Address"><i>reloading</i></td>
+                      </tr>
+                      <tr>
+                        <td>DHCP State:</td>
+                        <td id="STA_DHCP_State"><i>reloading</i></td>
+                      </tr>
+                      <tr>
+                        <td>IP Address:</td>
+                        <td id="STA_IP_Address"><i>reloading</i></td>
+                      </tr>
+                      <tr>
+                        <td>Subnet Mask:</td>
+                        <td id="STA_Subnet_Mask"><i>reloading</i></td>
+                      </tr>
+                      <tr>
+                        <td>Default Gateway:</td>
+                        <td id="STA_Default_Gateway"><i>reloading</i></td>
+                      </tr>
+                    </table>
+                  </div>
+
+                  <br />
+
+                  <div class="form-group">
+                    <h4>Wi-Fi AP Parameters</h4>
+                    <table>
+                      <tr>
+                        <td>Channel No:</td>
+                        <td id="STA_Connected_to_channel"><i>reloading</i></td>
+                      </tr>
+                      <tr>
+                        <td>SSID:</td>
+                        <td id="STA_connected_to_SSID"><i>reloading</i></td>
+                      </tr>
+                    </table>
+                  </div>
+
+                  <br />
+
+                  <div class="form-group">
+                    <h4>System</h4>
+                    <table>
+                      <tr>
+                        <td>System Up Time:</td>
+                        <td id="System_Up_Time"><i>reloading</i></td>
+                      </tr>
+                    </table>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer Buttons -->
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-xs-6 tabs current btn btn-connect" id="setup-form-link">
+                <a href="#" class="">
+                    <div class="connect">SETUP</div>
+                </a>
+              </div>
+              <div class="col-xs-6 tabs btn btn-register" id="overview-form-link">
+                <a href="#" id="overview-form-link">
+                  <div class="register">OVERVIEW</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1 text-center">
+            <h6 style="font-size:14px;font-weight:100;color: #fff;"><a href="index.html" target="_self">take me back</a> </h6>
+        </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

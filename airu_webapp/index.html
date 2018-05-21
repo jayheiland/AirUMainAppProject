@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>airU</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
+  <script type="text/javascript" src="js/com.TI.tokenPoller.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/loadingoverlay.min.js"></script>
+  <script type="text/javascript" src="js/passwordToggler.js"></script>
+
+  <script type="text/javascript">
+
+    var registering = false;
+    var errorCode = -1;
+    var anSSID = -1;
+    var errorCode_part0 = -1;
+
+    window.addEventListener('online', function(e) {
+      console.log('now online');
+      $('body').LoadingOverlay("hide");
+
+      location.reload(true);
+    }, false);
+
+
+    window.addEventListener('offline', function(e) {
+      // Use offine mode.
+      console.log('now offline');
+    }, false);
+
+
+    $(function() {
+
+      $('body').LoadingOverlay("show");
+
+      var MAC_Address = $('#MAC_Address');
+
+      var aboutPolling = new com.TI.tokenPoller({
+            "paramPage": "param_about.html",
+            "refreshRate": 1 * 1000, // every second
+            "valueMap": [{
+
+              "paramId": "MAC_Address",
+              "outputSuccess": function(output) {
+                  MAC_Address.html(output);
+              },
+              "outputDefault": function() {
+                  MAC_Address.html("<i>reloading</i>");
+              }
+            }]
+        });
+
+        // assume that webserver will replace all the __SL_G token values with their
+        // appropriate values if they exist
+        var tokens = {
+          "__SL_P_N.D": "__SL_G_N.D",
+        };
+
+        // go through each input field in this page and set their values
+        $('input').each(function(i) {
+          var $this = $(this),
+              thisName = $this.attr('name');
+          switch ($this.attr('type')) {
+            case "text":
+              // set the value
+              $this.val(tokens[thisName]);
+              break;
+            case "hidden":
+              $this.val(tokens[thisName])
+            case "radio":
+              if ($this.attr('value') == tokens[thisName]) {
+                  $this.attr('checked', 'checked');
+              }
+              break;
+            case "checkbox":
+              if ('Set' == tokens[thisName]) {
+                  $this.attr('checked', 'checked');
+              }
+              break;
+            default:
+              break;
+          }
+        });
+
+        // populate the profiles table
+        // go get the tokens for the profiles
+        $.ajax({
+          "type": "GET",
+          "url": "param_config.html",
+          "cache": false,
+          "dataType": "html"
+        })
+        // define callback for get request success
+        .done(function(getdata, status, xhr) {
+          var datapage = $(getdata),
+              defaultSecurity = "WAP2",
+              emptyStatus = "   -   ",
+              numProfiles = 7,
+              i = 0,
+              profNum = 0,
+              profSSID = '',
+              profSecurity = '',
+              profPriority = '',
+              output = [];
+
+          for (i = 0; i < numProfiles; i++) {
+            profNum = i + 1;
+            profSSID = datapage.filter('#Profile_' + profNum + '_SSID').text();
+
+            profSecurity = datapage.filter('#Profile_' + profNum + '_Security_Status').text();
+            if (profSecurity == emptyStatus) profSecurity = defaultSecurity;
+
+            profPriority = datapage.filter('#Profile_' + profNum + '_Priority').text();
+
+            if (profSSID != emptyStatus) {
+              output = [];
+              output.push('<tr>');
+              output.push('<td><div class="profileItem"><input type="checkbox" name="__SL_P_PRR" value="' + profNum + '"> ' + profNum + '. <b>' + profSSID + '</b></div></td>');
+              output.push('<td><div class="profileItem">Security: <b>' + profSecurity + '</b></div></td>');
+              output.push('<td><div class="profileItem">Priority: <b>' + profPriority + '</b></div></td>');
+              output.push('</tr>');
+              $(output.join('')).insertBefore('#profile_holding_area');
+            }
+          }
+        })
+        .fail(function(jqxhr, settings, exception) {
+            console.log("FAILED")
+        });
+
+        // hide ssid input text field
+        $("#ssids").change(function () {
+          $('#network').addClass('hide');
+          $('.orer').addClass('hide');
+        });
+
+        // hide ssid dropdown menu
+        $("#network").focus(function () {
+          $("#ssids option:eq(0)").prop("selected", true);
+          $('#ssids').addClass('hide');
+          $('.orer').addClass('hide');
+        });
+
+        // handles the POST when a form submits
+        $('form').on('submit', function(event) {
+          event.preventDefault();
+
+          // attach a message for the user
+          var $form = $(this);
+          var submitBtn = $form.find(':submit');
+          var bClearForm = (submitBtn.val().indexOf('Add') > -1);
+
+          if (!registering) {
+
+            var textFieldSSID = $('#network').val();
+            var dropDownSSID = $('#ssids').val();
+            var pwdField = $('#password').val();
+
+            var theSSID;
+            if (dropDownSSID === null && textFieldSSID !== "") {
+              theSSID = textFieldSSID;
+            } else if (dropDownSSID !== null) {
+              theSSID = dropDownSSID;
+            } else {
+              alert('Please either select your SSID in the dropdown menu or write it out in the text field.');
+              theSSID = null;
+              resetAll();
+            }
+
+            var passwordSet = true;
+            if (pwdField === "") {
+              alert('You forgot to set the password!');
+              passwordSet = false;
+              resetAll();
+            }
+
+            if (theSSID !== null && passwordSet) {
+              var security_localStorage = localStorage.getItem("security");
+
+              var theSecurity = $('#security').val();
+              if (security_localStorage != null) {
+                theSecurity = security_localStorage
+              }
+
+              var serializedForm = $('#network').attr('name') + '=' + theSSID + '&' + $('#password').attr('name') + '=' + pwdField + '&' + $('#security').attr('name') + '=' + theSecurity;
+              console.log('the security is ' + theSecurity);
+              // do the post to 'action' defined by form html
+              // serialize the form data for submission
+              // $.post($form.attr('action'), $form.serialize());
+              $.post($form.attr('action'), serializedForm);
+
+              alert("The sensor will now reboot. If your network credentials are correct the sensor will connect to your wifi. The webpage should reload automatically. You may need to wait a little bit. \n\nIf the page does not reload, please manually reload the http://airu.local page and you will be able to register your sensor. \n\nIf the credentials are wrong this page will come back, again.");
+
+              $('#connectContainer').addClass('hide');
+              $('#statusContainer').addClass('hide');
+
+              rebootMCUPost(theSSID);
+
+              $('body').LoadingOverlay("show");
+
+              setTimeout(function() { errorCodePolling(); }, 6000);
+            }
+          }
+        });
+
+
+        function connectionOrRegistration(theMode, theError) {
+          $('#message').addClass('notShow');
+          $('#statusContainer #error').removeClass('hide');
+
+          if (theMode == '0') {
+            // register
+            $('.advanced').removeClass('advancedNotVisible');
+            $('#connectContainer').addClass('hide');
+            $('#registerContainer').removeClass('hide');
+            // $('#statusContainer').removeClass('hide');
+
+            // set status message
+            // $('#statusContainer #modeInfo').html('in acces point mode (mode 0)');
+            $('#statusContainer #errorInfo').html(theError);
+
+            $('body').LoadingOverlay("hide");
+          } else if (theMode == '1') {
+            // connect
+            if (theError === "-109") {
+              resetAll();
+            }
+
+            $('#connectContainer').removeClass('hide');
+            $('#registerContainer').addClass('hide');
+            $('#statusContainer').removeClass('hide');
+
+            // set status message
+            // $('#statusContainer #modeInfo').html('in stationary mode (mode 1)');
+
+            if (theError === "2") {
+              $('#statusContainer #errorInfo').addClass('notRed');
+              $('#statusContainer #errorInfo').html('No profiles available yet.');
+            } else {
+              $('#statusContainer #errorInfo').removeClass('notRed');
+              $('#statusContainer #errorInfo').html('Please verify your credentials.');
+            }
+
+            // if (theError === "-1") {
+            //     $('#statusContainer #errorInfo').html('Profile available, but not for available SSIDs.');
+            // } else if (theError === "-109") {
+            //     $('#statusContainer #errorInfo').html('Bad credentials.');
+            // }
+
+            $('body').LoadingOverlay("hide");
+          } else {
+            console.log('in the else statement')
+            setTimeout(function() {
+              location.reload(true);
+            }, 5000);
+
+          }
+        }
+
+
+        function errorCodePolling() {
+          $.ajax({
+            "type": "GET",
+            "url": "param_about.html",
+            "cache": false,
+            "dataType": "html"
+          })
+          // define callback for get request success
+          .done(function(getdata, status, xhr) {
+            var datapage = $(getdata);
+
+            errorCode = datapage.filter('#Connection_Token').text();
+            console.log(errorCode)
+
+            errorCode_part0 = errorCode.split(':')[0];
+            var errorCode_part1 = errorCode.split(':')[1];
+
+            // $('#Connection_Token').html(errorCode_part0);
+            // $('#errorMessage').html(errorCode_part1);
+
+            if (errorCode_part0 !== "0") {
+              var theTokens = ['#SSID_LIST', '#SSID_LIST_part2']
+              theTokens.forEach(function(aToken, i) {
+                ssidListPolling(aToken, i);
+              });
+            }
+
+            connectionOrRegistration(errorCode_part0, errorCode_part1);
+
+          })
+          .fail(function(jqxhr, settings, exception) {
+              console.log("FAILED");
+              $('.advanced').addClass('advancedNotVisible');
+              $('body').LoadingOverlay("hide");
+              $('#statusContainer').removeClass('hide');
+              $('#statusContainer #error').addClass('hide');
+
+              $('#statusContainer #message').removeClass('notShow');
+              $('#statusContainer #message').html('Please be patient and wait until the sensor reconnects to your wifi.<br><br>If neither the registration page or the connection page comes up: <ol><li>manually change back to your own wifi.</li> <li>reload the http://airu.local page.</li></ol>');
+          });
+        }
+
+        function ssidListPolling(theToken, index) {
+          $.ajax({
+            "type": "GET",
+            "url": "param_about.html",
+            "cache": false,
+            "dataType": "html"
+          })
+          // define callback for get request success
+          .done(function(getdata, status, xhr) {
+            var datapage = $(getdata);
+
+            anSSID = datapage.filter(theToken).text();
+            console.log(anSSID)
+
+            if (index === 0) {
+              $('#ssids').empty();
+              $('#ssids').append($('<option disabled="disabled" selected="selected"></option>').html('Select your Network Name (SSID)'));
+            }
+
+            // parsing the output variable
+            var newOutput = JSON.parse(anSSID)['SSID'] //{"SSIDs" : ["networkA","networkB","networkC"]}
+
+            console.log(newOutput)
+            // if (newOutput !== undefined) {
+            if (newOutput.length !== 0) {
+              $.each(newOutput, function(i, p) {
+                  $('#ssids').append($('<option></option>').val(p).html(p));
+              });
+            }
+
+          })
+          .fail(function(jqxhr, settings, exception) {
+              console.log("FAILED");
+          });
+        }
+
+        // call the error code function after 2s
+        setTimeout(function() {
+          errorCodePolling();
+        }, 2000);
+
+
+        var $inputs = $('input[name=phone], input[name=sensor_holder]');
+        $inputs.on('input', function () {
+          // Set the required property of the other input to false if this input is not empty.
+          $inputs.not(this).prop('required', !$(this).val().length);
+        });
+
+    });
+
+
+    function rebootMCUPost(ssid) {
+      registering = false;
+
+      var message = 'update ' + ssid  ;
+
+      $.post("No_content", {
+        "__SL_P_ULD": message
+      });
+    }
+
+
+    // takes the form data and POST it to our database
+    function register() {
+
+      var formStatus = false;
+
+      var phone = document.getElementById('phonenumber');
+      var phoneField = $('#phonenumber').val();
+      var email = document.getElementById('email');
+      var emailField = $('#email').val();
+
+      // handle the case where both fields are empty
+      var nonEmptyField = true;
+      if (phoneField === "" && emailField === "" ) {
+        nonEmptyField = false;
+        alert("Phone number or email needs to be filled out before submitting");
+      }
+
+      // find out if the form inputs are all valid
+      var emailValid = true
+      var phoneValid = true
+      if (nonEmptyField) {
+        if (emailField !== "" && !email.validity.valid) {
+          emailValid = false;
+        } else if (emailField !== "" && email.validity.valid) {
+          emailValid = true;
+        }
+
+        if (phoneField !== "" && !phone.validity.valid) {
+          phoneValid = false;
+        } else if (phoneField !== "" && phone.validity.valid) {
+          phoneValid = true;
+        }
+
+        if (emailValid && phoneValid) {
+          formStatus = true
+        } else {
+          formStatus = false;
+        }
+      }
+
+      // if the form input are valid then register
+      if (formStatus) {
+        registering = true;
+
+        var formData = $("#register-form").serializeArray();
+
+        formData[0]['value'] = $('#sensor-mac').attr('placeholder');
+
+        formData_json = {};
+        tranformedData = formData.forEach(function(oldObject) {
+          formData_json[oldObject.name] = oldObject.value;
+        });
+
+        formData_json = JSON.stringify(formData_json);
+
+        var request = $.ajax({
+          type: "POST",
+          url: "http://air.eng.utah.edu/dbapi/api/registerSensor",
+          data: formData_json,
+          // success: function() {},
+          dataType: "json",
+          contentType: "application/json; charset=utf-8"
+        })
+
+        request.done(function(data, textStatus, jqXHR) {
+          console.log('registering successfull')
+          console.log(data)
+          console.log(textStatus)
+          console.log(jqXHR)
+
+          $('#registerContainer').addClass('hide');
+          $('#finalContainer').removeClass('hide');
+        });
+
+        request.fail(function(jqXHR, textStatus, errorThrown) {
+          console.log('registering not successfull')
+          console.log(jqXHR)
+          console.log(textStatus)
+          console.log(errorThrown)
+
+          alert('The registration could not be initiated. \nPlease check if you are connected to your wifi and that you have an internet connection');
+        });
+      }
+    }
+
+
+    function resetDropDownMenu() {
+      $("#ssids option:eq(0)").prop("selected", true);
+      $('#network').removeClass('hide');
+    }
+
+
+    function resetAll() {
+      $('#ssids').removeClass('hide');
+
+      resetDropDownMenu();
+
+      $('.orer').removeClass('hide');
+      document.getElementById("connect-form").reset();
+    }
+
+  </script>
+</head>
+
+<body>
+
+  <div class="container hide" id="statusContainer">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-connect">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-lg-12">
+
+                <div class="aligning">
+                <!-- <p id="mode"><b>Mode:</b> <span id="modeInfo">loading...</span></p> -->
+                  <p id="message" class="notShow"></p>
+                  <p id="error"><b>Error:</b> <span id="errorInfo">loading...</span></p>
+                </div>
+
+                <!-- <p><strong>see error code:</strong> <span id="Connection_Token"><i>reloading</i></span></p> -->
+                <!-- <p class="statusMessage"><b>Mode:</b> <span id="Connection_Token">loading...</span>&nbsp;&nbsp;<b>Error Code:</b> <span id="errorMessage">loading...</span></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container hide" id="connectContainer">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-connect">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-lg-12">
+
+                <form id="connect-form" action="profiles_add.html" method="post" role="form" style="display: block;">
+                  <h2><b>1.Step:</b> CONNECT TO WIFI</h2>
+                  <!-- <input type="hidden" name="__SL_P_S.R" value="" /> -->
+                  <div class="form-group">
+                    <div class="btn-group">
+                      <select name="__SL_P_P.A" class="form-control" id="ssids">
+                        <option disabled="disabled" selected="selected">Select your Network Name (SSID)</option>
+                        <option>airu</option>
+                      </select>
+                    </div>
+
+                    <div class="btn-group">
+                      <input class="form-control btn btn-form" id="resetDropDown" type="button" value="Reset Form" onclick="resetAll()">
+                    </div>
+
+                    <div class="orer">or</div>
+
+                    <input type="text" name="__SL_P_P.A" id="network" tabindex="1" class="form-control" placeholder="Network Name (SSID) case sensitive" value="">
+                    <!-- <input type="text" name="__SL_P_P.A" id="network" tabindex="1" class="form-control" placeholder="Network Name (SSID)" value="airu"> -->
+                    <input type="password" name="__SL_P_P.C" id="password" tabindex="2" class="form-control" placeholder="Password" value="" autocomplete="off" />
+                    <!-- <input name="__SL_P_P.B" value="3" style="display: none;"/> -->
+                    <input name="__SL_P_P.B" value="3" class='hide' id='security'/>
+                    <div class="checkbox">
+                      <label><input type="checkbox" id="togglePasswordField" style="display:none" /> Show Password</label>
+                    </div>
+                  </div>
+
+                  <br />
+
+                  <div class="col-sm-6 col-sm-offset-3">
+                    <!-- <input type="submit" name="connect-submit" id="connect-submit" tabindex="3" class="form-control btn btn-connect" value="Connect" onclick="rebootMCUPost()" /> -->
+                    <input type="submit" name="connect-submit" id="connect-submit" tabindex="3" class="form-control btn btn-connect" value="Connect" />
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Step 2. should be only coming up when everything works -->
+  <div class="container hide" id="registerContainer">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-connect">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-lg-12">
+
+                <form id="register-form" action="profiles_add.html" method="post" role="form" style="display: block;">
+                  <h2><b>2.Step:</b> Register the sensor</h2>
+                  <!-- <div class="form-group"> -->
+                  <input type="hidden" name="sensor_mac" id="sensor-mac" placeholder="__SL_G_N.D" value="__SL_G_N.D" />
+                  <div class="form-group">
+                    <p class="instructions">Your sensor is now connected to the internet. The next step is to register your sensor with the AQandU database.</p>
+                    <p>Please fill out your phone number or email (or both) to receive a confirmation that your sensor has been registered.</p>
+                    <!-- <label for="phonenumber">Your phone number:</label> -->
+                    <input type="text" name="phone" id="phonenumber" tabindex="4" class="form-control" placeholder="801xxxxxxx"  pattern="\d{10}" autofocus="autofocus" required /><br />
+                    <!-- <label for="email">Your email address:</label> -->
+                    <input type="email" name="sensor_holder" id="email" tabindex="5" class="form-control" placeholder="Email" required />
+                  </div>
+
+                  <br />
+
+                  <div class="form-group">
+                    <p class="instructions">To see the air quality levels that your sensor is measuring there is a companion visualization on our <a href="http://www.AQandU.org" target="_blank">www.AQandU.org</a> website. By default your sensor is "visible" and shown with a dot on a map at the sensor location. This allows you to easily find your sensor, select it, and see its measurements.</p>
+                    <p class="instructions">By choosing instead to make your sensor "hidden", your sensor location will not appear on the map. In order to then see your sensor's data you will need to enter your sensor ID into a query box. The sensor ID is on the sticker on the housing.
+                    If you want to change that later, please contact us.</p>
+                    <input type="radio" name="mapVisibility" value="true" id="visible" checked="" /><label for="visible">&nbsp;Visible</label><br />
+                    <input type="radio" name="mapVisibility" value="false" id="hidden" /><label for="hidden">&nbsp;Hidden</label>
+                  </div>
+
+                  <br />
+
+                  <div class="col-sm-6 col-sm-offset-3">
+                      <input type="submit" name="register-submit" id="register-submit" tabindex="6" class="form-control btn btn-connect" value="Register" onclick="register()" />
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container hide" id="finalContainer">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-connect">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-lg-12">
+
+                <p>Congratulations your sensor should now be registered and gathering air quality data. Please, wait for the email (from <b>aqandu@sci.utah.edu</b>) or the text message confirmation depending on your previous entry. This confirmation should be pretty fast.</p>
+
+                <p>For the unlikely event that you do not get a confirmation message. Please reload the page and reregister, as you may have mistyped your phone number or email.</p>
+
+                <p>If you have any feedback or questions please write us an email: <br /><b>contact-aqandu@sci.utah.edu</b></p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1 text-center">
+            <h6 style="font-size:14px;font-weight:100;color: #fff;"><a class="advanced" href="advanced.html" target="_self">Advanced Settings</a> </h6>
+        </div>
+    </div>
+  </footer>
+
+  <!-- <script type="text/javascript" src="js/form.js"></script>
+  <script type="text/javascript" src="js/com.TI.tokenPoller.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/loadingoverlay.min.js"></script>
+  <script type="text/javascript" src="js/passwordToggler.js"></script> -->
+  <script type="text/javascript" src="js/passwordToggler.js"></script>
+</body>
+
+</html>
