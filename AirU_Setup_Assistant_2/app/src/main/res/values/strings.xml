@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AirU_Setup_Assistant_2</string>
+    <string name="enter_password">Enter password</string>
+    <string name="press_scan">Press Scan</string>
+    <string name="scan">Scan</string>
+    <string name="enter">Enter</string>
 </resources>

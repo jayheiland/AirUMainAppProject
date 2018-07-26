@@ -31,34 +31,9 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ti/smartconfig/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11418">
+            <state relative-caret-position="13305">
               <caret line="1005" column="0" lean-forward="false" selection-start-line="1005" selection-start-column="0" selection-end-line="1005" selection-end-column="0" />
-              <folding>
-                <element signature="e#7018#9448#0" expanded="true" />
-                <element signature="e#9447#9448#0" expanded="true" />
-                <element signature="e#14978#15151#0" expanded="true" />
-                <element signature="e#15150#15151#0" expanded="true" />
-                <element signature="e#32601#35664#0" expanded="true" />
-                <element signature="e#35663#35664#0" expanded="true" />
-                <element signature="e#48850#50793#0" expanded="true" />
-                <element signature="e#49392#49885#0" expanded="true" />
-                <element signature="e#49884#49885#0" expanded="true" />
-                <element signature="e#49914#50147#0" expanded="true" />
-                <element signature="e#50146#50147#0" expanded="true" />
-                <element signature="e#50792#50793#0" expanded="true" />
-                <element signature="e#54348#54601#0" expanded="true" />
-                <element signature="e#54600#54601#0" expanded="true" />
-                <element signature="e#55465#55641#0" expanded="true" />
-                <element signature="e#55640#55641#0" expanded="true" />
-                <element signature="e#57027#57789#0" expanded="true" />
-                <element signature="e#57788#57789#0" expanded="true" />
-                <element signature="e#57841#58583#0" expanded="true" />
-                <element signature="e#58582#58583#0" expanded="true" />
-                <element signature="e#58646#59728#0" expanded="true" />
-                <element signature="e#59727#59728#0" expanded="true" />
-                <element signature="e#59907#60057#0" expanded="true" />
-                <element signature="e#60056#60057#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,7 +51,7 @@
       <file leaf-file-name="WifiNetworkUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ti/smartconfig/utils/WifiNetworkUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
+            <state relative-caret-position="1485">
               <caret line="155" column="43" lean-forward="false" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
               <folding />
             </state>
@@ -86,7 +61,7 @@
       <file leaf-file-name="NetworkUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ti/smartconfig/utils/NetworkUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="2490">
               <caret line="242" column="32" lean-forward="false" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="32" />
               <folding />
             </state>
@@ -1853,6 +1828,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -1882,8 +1859,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -2061,8 +2036,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2127,34 +2103,41 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ti/smartconfig/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15075">
+          <caret line="1005" column="0" lean-forward="false" selection-start-line="1005" selection-start-column="0" selection-end-line="1005" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ti/smartconfig/utils/WifiNetworkUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="155" column="43" lean-forward="false" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ti/smartconfig/utils/NetworkUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="242" column="32" lean-forward="false" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ti/smartconfig/DeviceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4335">
+          <caret line="289" column="73" lean-forward="false" selection-start-line="289" selection-start-column="35" selection-end-line="289" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ti/smartconfig/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#7018#9448#0" expanded="true" />
-            <element signature="e#9447#9448#0" expanded="true" />
-            <element signature="e#14978#15151#0" expanded="true" />
-            <element signature="e#15150#15151#0" expanded="true" />
-            <element signature="e#32601#35664#0" expanded="true" />
-            <element signature="e#35663#35664#0" expanded="true" />
-            <element signature="e#48850#50793#0" expanded="true" />
-            <element signature="e#49392#49885#0" expanded="true" />
-            <element signature="e#49884#49885#0" expanded="true" />
-            <element signature="e#49914#50147#0" expanded="true" />
-            <element signature="e#50146#50147#0" expanded="true" />
-            <element signature="e#50792#50793#0" expanded="true" />
-            <element signature="e#54348#54601#0" expanded="true" />
-            <element signature="e#54600#54601#0" expanded="true" />
-            <element signature="e#55465#55641#0" expanded="true" />
-            <element signature="e#55640#55641#0" expanded="true" />
-            <element signature="e#57027#57789#0" expanded="true" />
-            <element signature="e#57788#57789#0" expanded="true" />
-            <element signature="e#57841#58583#0" expanded="true" />
-            <element signature="e#58582#58583#0" expanded="true" />
-            <element signature="e#58646#59728#0" expanded="true" />
-            <element signature="e#59727#59728#0" expanded="true" />
-            <element signature="e#59907#60057#0" expanded="true" />
-            <element signature="e#60056#60057#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2175,36 +2158,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/wifi_item.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_devices_item.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_ap_provision_view.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/ti/smartconfig/R.java">
@@ -2222,7 +2202,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ti/smartconfig/utils/WifiNetworkUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
+        <state relative-caret-position="1485">
           <caret line="155" column="43" lean-forward="false" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
           <folding />
         </state>
@@ -2238,7 +2218,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ti/smartconfig/utils/NetworkUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="2490">
           <caret line="242" column="32" lean-forward="false" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="32" />
           <folding />
         </state>
@@ -2246,34 +2226,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ti/smartconfig/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11418">
+        <state relative-caret-position="13305">
           <caret line="1005" column="0" lean-forward="false" selection-start-line="1005" selection-start-column="0" selection-end-line="1005" selection-end-column="0" />
-          <folding>
-            <element signature="e#7018#9448#0" expanded="true" />
-            <element signature="e#9447#9448#0" expanded="true" />
-            <element signature="e#14978#15151#0" expanded="true" />
-            <element signature="e#15150#15151#0" expanded="true" />
-            <element signature="e#32601#35664#0" expanded="true" />
-            <element signature="e#35663#35664#0" expanded="true" />
-            <element signature="e#48850#50793#0" expanded="true" />
-            <element signature="e#49392#49885#0" expanded="true" />
-            <element signature="e#49884#49885#0" expanded="true" />
-            <element signature="e#49914#50147#0" expanded="true" />
-            <element signature="e#50146#50147#0" expanded="true" />
-            <element signature="e#50792#50793#0" expanded="true" />
-            <element signature="e#54348#54601#0" expanded="true" />
-            <element signature="e#54600#54601#0" expanded="true" />
-            <element signature="e#55465#55641#0" expanded="true" />
-            <element signature="e#55640#55641#0" expanded="true" />
-            <element signature="e#57027#57789#0" expanded="true" />
-            <element signature="e#57788#57789#0" expanded="true" />
-            <element signature="e#57841#58583#0" expanded="true" />
-            <element signature="e#58582#58583#0" expanded="true" />
-            <element signature="e#58646#59728#0" expanded="true" />
-            <element signature="e#59727#59728#0" expanded="true" />
-            <element signature="e#59907#60057#0" expanded="true" />
-            <element signature="e#60056#60057#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
